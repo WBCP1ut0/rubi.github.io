@@ -1,0 +1,327 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .footer {
+    display: flex;
+    background-color: #ea2328;
+    border-radius: 50px 50px 0 0;
+    align-content: center;
+    padding: 35px 14% 35px 14%;
+    gap: 20px;
+    z-index: 1;
+  }
+  .footer-container {
+    align-content: center;
+  }
+  .footer-container2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .QR-code {
+    width: 80px;
+    height: 80px;
+
+    object-fit: cover;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .contact-us {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: Lato;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+  }
+  .question {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lato;
+    color: #fff;
+  }
+  .QR-code-wrapper {
+    height: 80px;
+    width: 80px;
+  }
+  .text-wrapper-9 {
+    font-size: 18px;
+    color: #351f0a;
+  }
+  .scan-the-qr {
+    font-size: 15.43px;
+    font-family: Lato;
+    color: #351f0a;
+    text-align: left;
+  }
+  .frame-1 {
+    display: flex;
+    justify-content: flex-end; /* Move the image to the right */
+    align-items: center;
+    gap: 10px;
+  }
+  .cont2 {
+    padding-right: 30px;
+  }
+  .coffee-beans {
+    height: 410px;
+
+    z-index: 0;
+  }
+  .coffee_cup {
+    display: flex;
+    flex-direction: column;
+    width: 377px;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+  .frame-2 {
+    display: flex;
+    margin-top: -200px;
+  }
+  .rubi-coffee {
+    width: 100%;
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+  }
+  .welcome {
+    align-content: center;
+  }
+  .brown_cont {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+
+    max-height: 550px;
+    align-items: flex-start;
+    padding: 102px 90px;
+    background-color: #351f0a;
+    border-radius: 50px;
+  }
+  .element-decafcoffee {
+    height: 600px;
+    z-index: 200;
+  }
+  .frame-3 {
+    justify-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 360px;
+    margin-top: -15%;
+    background-image: url(spill.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 475px;
+  }
+  .no_bg_image {
+    position: absolute;
+    top: 44%;
+    right: 0;
+  }
+  .we-would-love-to {
+    font-size: 50px;
+    line-height: 72px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #fff;
+  }
+  .brown_inner {
+    max-width: 80%;
+    display: grid;
+    gap: 30px;
+  }
+  .this_will {
+    font-size: 23.54px;
+    line-height: 36px;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    font-weight: 300;
+  }
+  .frame-4 {
+    padding: 55px 0 35px 14%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text1 {
+    font-size: 26px;
+    line-height: 39px;
+    color: #351f0a;
+    text-align: left;
+    display: inline-block;
+    font-family: Lato;
+  }
+  .text2 {
+    font-size: 26px;
+    line-height: 39px;
+    color: #351f0a;
+    text-align: left;
+    display: inline-block;
+    font-family: Lato;
+  }
+  .coffee_vanila {
+  }
+  .red_cont {
+    font-size: 20.84px;
+    display: inline-block;
+    font-family: Lato;
+    color: #fff;
+    background-color: transparent;
+    text-align: left;
+    background-image: url("Group.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    border: none;
+  }
+  .cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  @media (max-width: 1024px) {
+    .coffee-beans {
+      max-height: 250px;
+    }
+    .frame-2 {
+      display: grid;
+      margin-top: -20%;
+    }
+    .welcome {
+      display: grid;
+      justify-items: center;
+    }
+    .element-decafcoffee {
+      padding-left: 20px;
+      height: 250px;
+    }
+    .brown_cont {
+      max-height: 750px;
+      padding: 80px 70px;
+    }
+    .we-would-love-to {
+      font-size: 30px;
+      line-height: 42px;
+    }
+    .this_will {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .frame-3 {
+      background-size: 200px;
+      padding-top: 160px;
+      margin-top: -10%;
+    }
+    .no_bg_image {
+      height: 530px;
+      top: 40%;
+    }
+    .coffee_vanila {
+      height: 300px;
+    }
+    .footer-container {
+      align-content: center;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+    }
+    .in-frame {
+      display: grid;
+      justify-content: left;
+    }
+    .rubi-coffee {
+      text-align: center;
+    }
+    .text1 br {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .element-decafcoffee {
+      height: 35vw;
+    }
+    .in-frame {
+      display: grid;
+      justify-content: left;
+    }
+    .coffee-beans {
+      max-height: 30vw;
+    }
+    .frame-2 {
+      display: grid;
+      margin-top: -25%;
+    }
+    .frame-3 {
+      padding-left: 8%;
+      padding-right: 8%;
+      background-size: 30vw;
+      padding-top: 23vw;
+    }
+    .brown_inner {
+      max-width: 100%;
+    }
+    .brown_cont {
+      max-height: 750px;
+      padding: 40px;
+    }
+    .we-would-love-to {
+      font-size: 24px;
+      line-height: 35px;
+    }
+    .no_bg_image {
+      height: 50vw;
+      top: 70%;
+    }
+    .frame-4 {
+      padding: 55px 0 35px 8%;
+      display: grid;
+      gap: 20px;
+    }
+    .text1,
+    .text2 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .cont1 {
+      gap: 20px;
+    }
+    .this_will {
+      width: 90%;
+    }
+    .coffee_vanila {
+      height: 40vw;
+    }
+    .footer {
+      display: grid;
+      gap: 20px;
+      padding: 35px 8% 35px 8%;
+    }
+    .footer-container {
+      justify-content: start;
+    }
+    .question,
+    .text-wrapper-9 {
+      font-size: 16px;
+    }
+    .rubi-coffee {
+      font-size: 50px;
+    }
+  }
